@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/ico" href="../images/hamster_ico.png">
+    <link rel="stylesheet" href="../css/algemeen.css"/>
+    <title>Contact</title><!--telefoon en een contactform-->
+</head>
+<body>
+<header>
+    <div id="logo">
+        <a href="../index.html">
+            <img src="../images/logo.PNG" alt="logo" title="Z-Zoo">
+        </a>
+    </div><div id="banner">
+        <img src="../images/animals/banner.jpg" alt="banner" title="dieren">
+    </div>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="../index.html">Home</a></li><li><a href="praktisch.html">Praktisch</a></li><li><a href="tickets.html">Tickets</a></li><li><a href="fotoGallerij.html">Gallerij</a></li><li><a href="activiteiten.html">Activiteiten</a></li><li class="bigMenuItem"><a href="kleurwedstrijd.html">Kleurwedstrijd</a></li><li class="disabled"><a>Contact</a></li>
+    </ul>
+</nav>
+
+<div id="content"><br>
+    <main id="contentOfContent"><br>
+        <form action="ticketsConfirm.html">
+            <fieldset>
+                <legend><h1>Formulier</h1></legend>
+                <input type="text" placeholder="Naam" title="Only 2 letters or more"
+                       pattern="[A-Za-z\s]{2,}" required>
+                <br><input type="email" placeholder="naam@example.com" required><br>
+                <textarea id="area" placeholder="Comment" type="submit" value="bestel"></textarea><br>
+            </fieldset>
+        </form>
+        <p id="contact">of contacteer ons op <a href="tel:035497897">03/549.78.97</a></p>
+    </main>
+</div>
+
+<footer>
+    <a href="https://www.facebook.com" target="_blank"><img src="../images/fb_ico.png" id="facebook" alt="Facebook"></a>
+    <a href="https://twitter.com/" target="_blank"><img src="../images/twitter_ico.png" id="twitter" alt="Twitter"></a>
+</footer>
+</body>
+</html>

@@ -1,0 +1,29 @@
+body > header{
+    width: 100vw !important;
+    left: 0 !important;
+    margin: 0 !important;
+}
+
+#content{
+    width: 100vw !important;
+    left: 0;
+}
+
+nav{
+    width: 100vw !important;
+    line-height: 0.5vh !important;
+    left: 0 !important;
+    margin: 0 !important;
+}
+
+a{
+    font-size: 10pt;
+}
+
+table{
+    font-size: 15pt;
+}
+
+#fotos img{
+    width: 17vw !important;
+}

@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    width: 210mm;
+    height: 297mm;
+}
+
+header{
+    margin: 0;
+}
+
+main{
+    width: 100%;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+#logo{
+    width: 20%;
+    float: left;
+}
+
+#banner{
+    float: left;
+    width: 80%;
+}
+
+#content{
+    clear: left;
+    margin: 0;
+}

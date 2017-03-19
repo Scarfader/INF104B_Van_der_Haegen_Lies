@@ -1,0 +1,35 @@
+#plan{
+    width: 100%;
+}
+
+#printbaarPlan{
+    width: 5%;
+    position: absolute;
+}
+
+th, td{
+    border-right: 1px groove black;
+    border: 5%;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+table{
+    font-size: 18px;
+}
+
+th:first-child, td:first-child{
+    border-left: 1px solid black;
+}
+
+tr:first-child th, tr:first-child td{
+    border-top: 1px solid black;
+}
+
+#maps{
+    width: 100%;
+}
+
+table{
+    width: 100%;
+}

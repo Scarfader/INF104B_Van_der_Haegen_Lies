@@ -1,0 +1,29 @@
+#leeftijden ul, #leeftijden a{
+    list-style-type: armenian;
+    font-size: 3vh;
+}
+
+p{
+    width: 100%;
+}
+
+#Map{
+    width: 80%;
+}
+
+#map{
+    width: 80%;
+}
+
+#potlood{
+    float: right;
+    width: 20%;
+}
+
+td{
+    align-content: center;
+}
+
+mark{
+    background-color: greenyellow;
+}

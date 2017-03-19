@@ -1,0 +1,175 @@
+@import url("smallScreen.css") screen and (max-device-width: 270.94mm);
+@import url("smallScreen.css") screen and (max-device-height: 203.2mm);
+@import url("smallScreen.css") screen and (max-width: 1030px);
+@import url("phone.css") screen and (max-width: 528px);
+
+html {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    /*background-color: rgba(62,64,88,0.83);*/
+    background-color: rgb(54, 54, 54);
+    background-image: url("../images/bg.png");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-attachment: fixed;
+    background-position: right bottom;;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    cursor: url("http://www.rw-designer.com/cursor-extern.php?id=79542"), auto;
+}
+
+body > header {
+    width: 60vw;
+    height: 15vh;
+    margin: 0 auto 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 20vw;
+    background-color: inherit;
+    border-bottom: 1vh solid rgb(54, 54, 54);
+}
+
+#logo {
+    height: 100%;
+    width: 20%;
+    background-color: rgba(184, 134, 11, 0.3);
+    display: inline-block;
+    margin: 0;
+}
+
+#banner {
+    height: 100%;
+    width: 80%;
+    border-color: black;
+    background-color: teal;
+    display: inline-block;
+}
+
+header img {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+nav {
+    position: fixed;
+    z-index: 1;
+    top: 15vh;
+    left: 20vw;
+    width: 60vw;
+    margin: 0 auto 0;
+    /*height: 5vh;*/
+    height: 5vh;
+    background-color: inherit;
+}
+
+ul {
+    list-style-type: none;
+    display: block;
+    height: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    width: Calc(100% / 7);
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    line-height: 3.5vh;
+}
+
+li a {
+    color: #000;
+    font-style: normal;
+}
+
+.disabled {
+    background-color: rgb(43, 43, 43);
+}
+
+.bigMenuItem {
+    padding-left: 0.7vw;
+    width: Calc(100% / 7 - 0.7vw);
+}
+
+#content {
+    width: 60vw;
+    margin: 20vh auto 0;
+    background-color: rgba(184, 134, 11, 0.3);
+    height: Calc(80vh - 25px);
+    overflow: auto;
+}
+
+#contentOfContent {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    font-size: 1.1em;
+}
+
+footer {
+    width: 60vw;
+    margin: auto;
+    text-align: center;
+}
+
+footer img {
+    width: 3%;
+}
+
+footer a{
+    color: black;
+}
+
+h1, h2, h3, h4, h5, form, table {
+    margin-top: 2vh;
+    margin-bottom: 0.8vh;
+}
+
+h1:last-child, iframe:last-child, table:last-child {
+    margin-bottom: 5vh;
+}
+
+#facebook {
+    content: url("../images/fb_ico.png");
+}
+
+#twitter {
+    content: url("../images/twitter_ico.png");
+}
+
+table{
+    margin: 0;
+}
+
+#contact a{
+    color: black;
+    font-size: 12pt;
+}
+
+#area, input{
+    width: 400px;
+}
+
+#area{
+    height: 100px;
+    background-color: inherit;
+}
+
+.radio{
+    width: 40px;
+}
+fieldset, textarea{
+    border-color: black;
+}

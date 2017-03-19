@@ -1,0 +1,29 @@
+
+#contentOfContent{
+    width: inherit;
+    align-content: center;
+    text-align: center;
+}
+
+fieldset{
+    width: inherit;
+    align-content: center;
+    text-align: center;
+}
+
+form{
+    width: inherit;
+    align-content: center;
+    text-align: center;
+}
+
+main{
+    width: inherit;
+    align-content: center;
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    text-align: center;
+}

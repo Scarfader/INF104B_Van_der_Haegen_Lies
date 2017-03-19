@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/ico" href="../images/hamster_ico.png">
+    <link rel="stylesheet" href="../css/algemeen.css"/>
+    <title>Tickets</title><!--bestelformulier-->
+</head>
+<body>
+<header>
+    <div id="logo">
+        <a href="../index.html">
+            <img src="../images/logo.PNG" alt="logo" title="Z-Zoo">
+        </a>
+    </div><div id="banner">
+        <img src="../images/animals/banner.jpg" alt="banner" title="dieren">
+    </div>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="../index.html">Home</a></li><li><a href="praktisch.html">Praktisch</a></li><li class="disabled"><a>Tickets</a></li><li><a href="fotoGallerij.html">Gallerij</a></li><li><a href="activiteiten.html">Activiteiten</a></li><li class="bigMenuItem"><a href="kleurwedstrijd.html">Kleurwedstrijd</a></li><li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<div id="content"><br>
+    <main id="contentOfContent"><br>
+        <form action="ticketsConfirm.html">
+            <fieldset>
+                <legend><h1>Tickets bestellen</h1></legend>
+                <input type="text" placeholder="Achternaam" title="Only 2 letters or more"
+                       pattern="[A-Za-z\s]{2,}" required><br>
+                <input type="text" placeholder="Voornaam" title="Only 2 letters or more"
+                       pattern="[A-Za-z\s]{2,}" required><br>
+                <input type="text" placeholder="Adres" title="Only 2 letters or more"
+                       pattern="[A-Za-z0-9\s]{5,}" required><br>
+                <input type="email" placeholder="naam@example.com" required>
+                <br>Aantal volwassenen: (min. 0, max 20) <br>
+                <input type="range" min="0" max="20" value="0" title="Aantal volwassenen">
+                <br>Aantal kinderen: (min. 0, max 20) <br>
+                <input type="range" min="0" max="20" value="0" title="Aantal kinderen">
+                <br>Recht op korting<br>
+                <input class="radio" type="radio" name="korting" value="student" required title="student">Student<br>
+                <input class="radio" type="radio" name="korting" value="gezinsbond" required title="gezinsbond">Gezinsbond<br>
+                <input class="radio" type="radio" name="korting" value="-12 jaar" required title="-12 jaar">-12 jaar<br>
+                <input class="radio " type="radio" name="korting" value="geen" required checked title="geen korting">niet
+                van toepassing<br>
+                <input type="submit" value="bestel">
+            </fieldset>
+        </form>
+    </main>
+</div>
+
+<footer>
+    <a href="https://www.facebook.com" target="_blank"><img src="../images/fb_ico.png" id="facebook" alt="Facebook"></a>
+    <a href="https://twitter.com/" target="_blank"><img src="../images/twitter_ico.png" id="twitter" alt="Twitter"></a>
+</footer>
+</body>
+</html>

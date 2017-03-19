@@ -1,0 +1,53 @@
+th, td{
+    border-right: 1px groove black;
+    border-bottom: 1px solid black;
+}
+
+table{
+    width: 50%;
+    display: inline;
+    margin-bottom: 5px;
+}
+
+th:first-child, td:first-child{
+    border-left: 1px solid black;
+}
+
+tr:first-child th, tr:first-child td{
+    border-top: 1px solid black;
+}
+
+.green{
+    background-color: greenyellow;
+}
+
+.blue{
+    background-color: deepskyblue;
+}
+
+.red{
+    background-color: deeppink;
+}
+
+#legende{
+    display: inline !important;
+    margin: 0;
+}
+
+#legende li{
+    width: 100%;
+    list-style-type: disc !important;
+    text-align: left;
+}
+
+#voedermoment{
+    color: deeppink;
+}
+
+#show{
+    color: deepskyblue;
+}
+
+#expo{
+    color: greenyellow;
+}
