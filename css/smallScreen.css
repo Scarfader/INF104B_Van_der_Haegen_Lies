@@ -9,6 +9,10 @@ body > header{
     left: 0;
 }
 
+footer img {
+    width: 2% !important;
+}
+
 nav{
     width: 100vw !important;
     line-height: 0.5vh !important;

@@ -9,6 +9,7 @@ html {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 body {
@@ -71,7 +72,7 @@ nav {
     background-color: inherit;
 }
 
-ul {
+nav ul {
     list-style-type: none;
     display: block;
     height: 100%;
@@ -80,7 +81,7 @@ ul {
     margin: 0;
 }
 
-li {
+nav li {
     display: inline-block;
     width: Calc(100% / 7);
     height: 100%;
@@ -89,9 +90,10 @@ li {
     line-height: 3.5vh;
 }
 
-li a {
+nav li a {
     color: #000;
     font-style: normal;
+    text-decoration: none;
 }
 
 .disabled {
@@ -113,19 +115,18 @@ li a {
 
 #contentOfContent {
     width: 90%;
-    height: 100%;
     margin: auto;
     font-size: 1.1em;
 }
 
 footer {
-    width: 60vw;
+    width: 100vw;
     margin: auto;
     text-align: center;
 }
 
 footer img {
-    width: 3%;
+    width: 1%;
 }
 
 footer a{
@@ -157,19 +158,29 @@ table{
     color: black;
     font-size: 12pt;
 }
-
-#area, input{
-    width: 400px;
-}
-
 #area{
     height: 100px;
-    background-color: inherit;
 }
 
 .radio{
     width: 40px;
 }
-fieldset, textarea{
+
+fieldset, textarea, input{
     border-color: black;
+    width: 400px;
+}
+
+input, textarea{
+    border: black solid 1px;
+    padding: 0;
+    margin:0;
+}
+
+fieldset textarea{
+    margin-top: 2px;
+}
+
+caption{
+    text-align: left;
 }

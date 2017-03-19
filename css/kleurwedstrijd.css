@@ -1,6 +1,12 @@
 #leeftijden ul, #leeftijden a{
     list-style-type: armenian;
     font-size: 3vh;
+    color: black;
+}
+
+#leeftijden li{
+    display: inline-block;
+    width: 5%;
 }
 
 p{

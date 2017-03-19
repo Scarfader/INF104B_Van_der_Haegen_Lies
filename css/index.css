@@ -23,14 +23,13 @@ article{
 
 article p{
     width: 47%;
-    display: inline-block;
     padding-top: 20%;
     padding-left: 3%;
 }
 
 article .header{
     width: 50%;
-    display: inline-block;
+
 }
 
 .expo{

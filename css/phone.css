@@ -6,6 +6,14 @@ html{
     font-size: 0.3em;
 }
 
+#contentOfContent{
+    width: 98% !important;
+}
+
+footer img {
+    width: 5%;
+}
+
 table{
     font-size: 8pt !important;
 }

@@ -30,13 +30,12 @@ tr:first-child th, tr:first-child td{
 }
 
 #legende{
-    display: inline !important;
+    padding-top: 5px;
     margin: 0;
 }
 
 #legende li{
     width: 100%;
-    list-style-type: disc !important;
     text-align: left;
 }
 
